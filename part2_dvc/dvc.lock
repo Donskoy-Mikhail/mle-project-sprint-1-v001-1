@@ -15,6 +15,10 @@ stages:
       hash: md5
       md5: ccdcb1f4704fc5979d530f96acd1fd1a
       size: 13755113
+      cloud:
+        apartment_project:
+          etag: ccdcb1f4704fc5979d530f96acd1fd1a
+          version_id: 000626B89DCA49B7
   fit_model:
     cmd: python scripts/fit.py
     deps:
@@ -37,6 +41,10 @@ stages:
       hash: md5
       md5: f514b42a0621a980b865e961fb87cebd
       size: 1119459
+      cloud:
+        apartment_project:
+          etag: f514b42a0621a980b865e961fb87cebd
+          version_id: 000626B89DC5FEFE
   evaluate_model:
     cmd: python scripts/evaluate.py
     deps:
@@ -62,3 +70,7 @@ stages:
       hash: md5
       md5: 8dc77383e2a60bc328ab2ed233c81049
       size: 103
+      cloud:
+        apartment_project:
+          etag: 8dc77383e2a60bc328ab2ed233c81049
+          version_id: 000626B89DC6D0BD

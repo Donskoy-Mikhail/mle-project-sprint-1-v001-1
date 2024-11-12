@@ -1,0 +1,6 @@
+[core]
+    remote = apartment_project
+['remote "apartment_project"']
+    url = s3://s3-student-mle-20241021-f2a23d930e
+    endpointurl = https://storage.yandexcloud.net
+    version_aware = true
